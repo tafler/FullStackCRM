@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "server": "nodemon index"
+    "server": "nodemon index",
+    "client-install": "npm install --prefix client",
+    "client": "npm run dev --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\" "
   },
   "keywords": [],
   "author": "",
@@ -24,6 +27,7 @@
     "passport-jwt": "^4.0.0"
   },
   "devDependencies": {
+    "concurrently": "^4.0.1",
     "nodemon": "^1.18.4"
   }
 }
