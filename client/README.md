@@ -1,6 +1,6 @@
 # client
 
-> A Vue.js project
+> A client part for fullstackCRM project
 
 ## Build Setup
 
