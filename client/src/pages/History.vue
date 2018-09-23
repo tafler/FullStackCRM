@@ -1,7 +1,7 @@
 <template>
   <v-container>
     <v-layout>
-      <v-flex offset-sm1 class="display-1 mb-5">История заказов</v-flex>
+      <v-flex offset-sm1 class="display-2 mb-5">История заказов</v-flex>
       <v-spacer></v-spacer>
       <v-flex>
         <v-btn class="primary"><v-icon>filter_list</v-icon></v-btn>
