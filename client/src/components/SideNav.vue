@@ -22,7 +22,7 @@
           </v-list-tile-action>
           <v-list-tile-content>
             <v-list-tile-title>
-              <router-link :to="{name: 'overview'}">
+              <router-link tag="a" :to="{name: 'overview'}">
                 Обзор
               </router-link>
             </v-list-tile-title>
@@ -30,11 +30,11 @@
         </v-list-tile>
         <v-list-tile>
           <v-list-tile-action>
-            <v-icon>settings</v-icon>
+            <v-icon>insert_chart_outlined</v-icon>
           </v-list-tile-action>
           <v-list-tile-content>
             <v-list-tile-title>
-              <router-link :to="{name: 'analytics'}">
+              <router-link tag="a" :to="{name: 'analytics'}">
                 Аналитика
               </router-link>
             </v-list-tile-title>
@@ -42,11 +42,11 @@
         </v-list-tile>
         <v-list-tile>
           <v-list-tile-action>
-            <v-icon>settings</v-icon>
+            <v-icon>history</v-icon>
           </v-list-tile-action>
           <v-list-tile-content>
             <v-list-tile-title>
-              <router-link :to="{name: 'history'}">
+              <router-link tag="a" :to="{name: 'history'}">
                 История
               </router-link>
             </v-list-tile-title>
@@ -54,11 +54,11 @@
         </v-list-tile>
         <v-list-tile>
           <v-list-tile-action>
-            <v-icon>settings</v-icon>
+            <v-icon>add_shopping_cart</v-icon>
           </v-list-tile-action>
           <v-list-tile-content>
             <v-list-tile-title>
-              <router-link :to="{name: 'order'}">
+              <router-link tag="a" :to="{name: 'order'}">
                 Добавить заказ
               </router-link>
             </v-list-tile-title>
@@ -66,11 +66,11 @@
         </v-list-tile>
         <v-list-tile>
           <v-list-tile-action>
-            <v-icon>settings</v-icon>
+            <v-icon>list</v-icon>
           </v-list-tile-action>
           <v-list-tile-content>
             <v-list-tile-title>
-              <router-link :to="{name: 'assortment'}">
+              <router-link tag="a" :to="{name: 'assortment'}">
                 Ассортимент
               </router-link>
             </v-list-tile-title>
@@ -101,5 +101,11 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
+  a{
+    color: white;
+    text-decoration: none;
+  }
+  .router-link-exact-active{
+    color: #82B1FF;
+  }
 </style>

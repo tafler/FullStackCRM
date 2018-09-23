@@ -10,17 +10,7 @@
     <v-layout row>
       <v-flex sm3>
         <v-card>
-          <v-img
-            :src="'../assets/logo.png'"
-            height="200px"
-          >
-            <v-container
-              fill-height
-              fluid
-              pa-2
-            >
-            </v-container>
-          </v-img>
+          <img src="../assets/logo.png" height="200px">
           <v-card-title class="text-xs-center">
             <p class="text-xs-center">asdawdwd</p>
           </v-card-title>
